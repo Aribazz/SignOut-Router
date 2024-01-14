@@ -1,0 +1,107 @@
+.containerflex{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+.containerleft{
+  width: 60vw;
+  height: 100%;
+  padding: 1rem 3rem 0 6rem;
+}
+.topSection{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  .topSectionlogo img{
+      height: 30px;
+  }
+  .topSectionTxt span{
+      font-size: 14px;
+  
+  }
+  .topSectionTxt span a{
+      color: #00AB55;
+      font-weight: 600;
+      text-decoration: none;
+  }
+  .headingSection{
+      width: 100%;
+      text-align: center;
+      margin: 2.5rem 0 2rem;
+      font-size: 30px;
+  }
+  .headingMG{
+      margin-top: 3rem;
+  
+  }
+  .form{
+  width: 100%;
+  }
+  .formContainer{
+      display: grid;
+      grid-template-columns: 6fr 6fr;
+      column-gap: 10px;
+      row-gap: 15px;}
+  .formFlex{
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+  
+  }
+  .formFlex label{
+      font-weight: 600;
+      font-size: 14px;
+      text-align: left;
+  }
+  .formFlex input{
+      height: 40px;
+      border-radius: 8px;
+      border: 1px solid #919EAB52;
+      outline: none;
+      padding: 5px 10px;
+  }
+  .btn{
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      margin-top: 16px;
+  }
+  .signinBtn{
+  margin: 3rem 0 0;
+  }
+  .btn button{
+      height: 40px;
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+  }
+  .btn button:first-child{
+      background-color: #212B36;
+      font-weight: 700;
+      color: #ffffff;
+  }
+  .btn button:last-child{
+      display: flex;
+      column-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      border: 2px solid #919EAB52;
+      font-weight: 700;
+  }
+  .btn button:last-child img{
+      width: 18px;
+      height: 18px;
+  }
+  .backgroundimg{
+      width: 40vw;
+      height: 100vh;
+      overflow: hidden;
+  }
+  .backgroundimg img{
+      width: 100%;
+      height: 100%;
+      /* object-fit: none; */
+  }
